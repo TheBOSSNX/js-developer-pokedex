@@ -1,0 +1,222 @@
+.headerDT{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header a{
+    text-decoration: none; 
+
+}
+
+.contentDT {
+    padding: 0.5rem;
+    height: auto;
+    margin-bottom: 10px;
+    max-width: 992px;
+    border-radius: 2rem;
+    background-image: url(/assets/images/Pokeball.png);
+    background-size: 25rem;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+
+.pokeStatus{
+    height: 400px;
+    border-radius: 1rem;
+    background-color: #fff;
+    border-radius: 2rem;
+
+}
+
+.contentDT .types {
+    list-style: none;
+    color: #fff;
+    padding: 1rem;
+    margin: 0.25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    padding-top: 50px;
+
+}
+
+.pokeStatus .types .type{
+    border-radius: 1rem;
+    padding: 5px;
+    width: 4rem;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+
+.pokemonView{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.pokemonView img{
+    margin: -50px;
+    width: 17rem;
+    position: relative;
+    top: -40px;
+
+}
+
+.numberDT{
+    color: #fff;
+    margin: .25rem 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 20px;
+
+}
+
+.nameDT{
+    color: #fff;
+    margin: .25rem 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.75rem;
+    padding-left: 20px;
+
+}
+
+.arrow img{
+    width: .75rem;
+}
+
+.infoTitle{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+
+}
+
+.pokeAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.pokeAbout .p{
+    color: #666666;
+    font-size: 10px;
+    padding: 0.235rem;
+
+}
+.pokeAbout .pp{
+    color: #666666;
+    font-size: 10px;
+
+}
+
+.aboutInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+
+.moves ol{
+    list-style: none;
+    padding: 0;
+
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.stats ol {
+    list-style: none;
+
+}
+
+.stats_value ol,.stats_name ol{
+    margin: 5px 20px;
+    padding-left: 0px;
+
+}
+
+.stats_value li,.stats_name li {
+    padding-bottom:2px;
+    font-weight: bold;
+
+}
+
+.stats_name {
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.stats_value {
+    font-size: 14px;
+    color: #000;
+
+}
+
+.container-barra {
+    width: 600px;
+    margin-right: 10px;
+
+}
+
+.barra {
+    height: 100%;
+    height: 10px;
+    margin: 8px 0px;
+    border-radius: 10px;
+
+}
+
+.specs_height .i{
+    height: 25px;
+    margin-left: 10px;
+
+}
+
+.specs_weight .i {
+    height: 18px;
+
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+
+}
