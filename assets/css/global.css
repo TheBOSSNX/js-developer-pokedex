@@ -4,8 +4,8 @@
 }
 
 body{
-    background-color: #fff;
-    background-image: url(../images/background.jpg);
+    /* background-color: #fff; */
+    background-image: url("assets/images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -151,7 +151,6 @@ a{
     font-weight: bold;
     color: #000;
     background: #ecc94b;
-    transform: rotate(-8deg);
     transition: transform 200ms ease 0s;
     margin-top: 10px;
     padding: 12px 3rem 12px 3rem;
@@ -161,10 +160,9 @@ a{
     align-items: center;
 
 }
-.pagination:hover{
+.pagination button:hover{
     
-    transform: rotate(8deg);
-    transition: transform 200ms ease 0s;
+   background-color: #012547;
 
 }
 

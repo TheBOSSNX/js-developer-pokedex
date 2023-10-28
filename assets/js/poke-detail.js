@@ -112,13 +112,16 @@ function loadPokemonDetail(id) {
     
     pokeApi.getPokemons(id-1, 1).then((pokemons = []) => {
         const newHtml = pokemons.map(convertPokemonDetail).join('');
-        pokemonDetail.innerHTML += newHtml;
+        pokemonDetail.innerHTML = newHtml;
     })
+    
 
     
     pokemonList.style.display = "none"
     loadMoreButton.style.display = "none"
 }
+
+
 
 pokemonDetail.addEventListener('click', () => {
     loadPokemonDetail();
