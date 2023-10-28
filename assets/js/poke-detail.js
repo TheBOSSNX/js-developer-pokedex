@@ -121,11 +121,14 @@ function loadPokemonDetail(id) {
     loadMoreButton.style.display = "none"
 }
 
+pokemonDetail.addEventListener('click', (event) => {
+    const pokemonItem = event.target.closest('.pokemonItem');
+    if (pokemonItem) {
+        const pokemonId = pokemonItem.dataset.id;
+        loadPokemonDetail(pokemonId);
+    }
+});
 
-
-pokemonDetail.addEventListener('click', () => {
-    loadPokemonDetail();
-})
 
 loadMore.addEventListener('click', () => {
     offset1 += limit1
